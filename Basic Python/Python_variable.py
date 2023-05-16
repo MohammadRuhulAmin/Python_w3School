@@ -17,3 +17,4 @@ print(x)
 #Get the Type
 
 print(type(x))
+
