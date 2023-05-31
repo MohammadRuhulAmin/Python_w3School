@@ -27,3 +27,15 @@ print(a1.printInfo())
 class Veachel:pass
 class Modern:pass
 class Fish:pass
+
+class People:
+    def __init__(self,name,email,contact):
+        self.name = name
+        self.email = email
+        self.contact = contact
+
+
+p1 = People("Ruhul","r@gmail.com","1023")
+print(p1.name)
+print(p1.email)
+print(p1.contact)
